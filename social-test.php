@@ -21,5 +21,3 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with Social Test. If not, see https://www.gnu.org/licenses/gpl-2.0.html.
 */
-register_activation_hook(__FILE__, 'socialtest_set_options');
-register_deactivation_hook(__FILE__, 'socialtest_unset_options');
